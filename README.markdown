@@ -12,9 +12,6 @@ Dependencies
   packages needed by pandoc.  On Ubuntu you can get this by installing
   `texlive`, `texlive-latex-extra`, and `tex-gyre`.
 
-Be sure to run `git submodule update --init` to fetch the custom pandoc
-template which the resumé is based on.
-
 Usage
 -----
 
