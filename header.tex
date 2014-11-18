@@ -1,5 +1,11 @@
 \usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
 \usepackage{tgpagella}
+\ifxetex
+  \usepackage{xeCJK}
+  \setCJKmainfont{WenQuanYi Zen Hei}
+  \setmainfont[Mapping=tex-text]{TeXGyrePagella}
+\fi
+
 \usepackage{titlesec}
 \titleformat{\section}{\huge\bfseries}{\thesection}{1em}{}
 \titlespacing{\section}{0pt}{0pt}{1em}
