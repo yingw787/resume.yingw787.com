@@ -1,6 +1,9 @@
 This is a simple Markdown resumé template, LaTeX header, and pre-processing
-script that can be used with [Pandoc](http://johnmacfarlane.net/pandoc/) to
-create professional-looking PDF and HTML output.
+script that can be used with [Pandoc](http://johnmacfarlane.net/pandoc/) to generate
+professional-looking PDF and HTML output.
+
+The Markdown flavor supported is
+[Pandoc markdown](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown).
 
 ## Dependencies
 
