@@ -110,7 +110,7 @@ def tex(lines, contact_lines, *args):
     for c in escape:
         contact_lines = sub(r'([^\\])\%s' % c, r'\1\%s' % c, contact_lines)
 
-    lines.insert(0, "\\begin{nospace}\\begin{flushright}\n" +
+    lines.insert(0, "\\begin{nospace}\\begin{flushright}\n\\vspace{-2em}" +
                     contact_lines +
                     "\n\\end{flushright}\\end{nospace}\n")
 
