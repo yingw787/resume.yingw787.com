@@ -18,6 +18,9 @@ sudo apt-get install texlive texlive-latex-extra tex-gyre
 
 ## Usage
 
+Clone the repo and create a new branch with a different Markdown file for your
+resumé.
+
 To generate PDF and HTML versions of each .md file in the directory:
 
     $ make
