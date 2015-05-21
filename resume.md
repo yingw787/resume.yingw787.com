@@ -15,7 +15,7 @@ Work Experience
 
 *   **Word Processor** (Redmond, WA)
 
-    Junior Resumé Maker, 2006 - 2007
+    *Junior Resumé Maker*, 2006 - 2007
 
     -   Intermingled presentation and content
     -   Styling was a pain, so either didn't do it or found a half-decent
@@ -23,7 +23,7 @@ Work Experience
 
 *   **\LaTeX\ + pdflatex**
 
-    Senior Resumé Maker, 2008 - 2010
+    *Senior Resumé Maker*, 2008 - 2010
 
     -   Edited verbose \LaTeX\ documents in a text editor
     -   Mixed content and presentation to achieve pixel-perfection
@@ -32,7 +32,7 @@ Work Experience
 
 *   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
 
-    Web Resumé Intern, August 2010
+    *Web Resumé Intern*, August 2010
 
     -   Entered data, adapting to different data models and formatting
         limitations
@@ -41,7 +41,7 @@ Work Experience
 
 *   **Markdown with Pandoc**
 
-    Resumé Architect, February 2011 - present
+    *Resumé Architect*, February 2011 - present
 
     -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
         DOCX, and more)
@@ -58,7 +58,7 @@ Education
 
 *   **Github University** (World Wide Web)
 
-    B.S. in Submodules, May 2012
+    *B.S. in Submodules*, May 2012
 
 
 Skills
