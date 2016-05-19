@@ -15,7 +15,7 @@ The Markdown flavor supported is
   packages needed by pandoc.  On Ubuntu you can get this by doing:
 
 ```
-sudo apt-get install texlive texlive-latex-extra tex-gyre
+sudo apt-get install texlive texlive-latex-extra tex-gyre lmodern
 ```
 
 ## Usage
