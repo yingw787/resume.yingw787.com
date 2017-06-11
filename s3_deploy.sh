@@ -1,6 +1,6 @@
 GRAVATAR_OPTION=--no-gravatar make
 
-current_time = $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+current_time=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
 git add .
 git commit -m "Resume update: $current_time"
