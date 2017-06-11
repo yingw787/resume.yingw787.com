@@ -1,3 +1,27 @@
+# About
+
+Fork of https://github.com/mwhite/resume.
+
+# Installation on Mac
+
+OS Version: macOS 10.12.5
+
+Make sure that you have HomeBrew installed. Run `brew update` to update HomeBrew.
+
+Install Pandoc with HomeBrew, as `brew install pandoc`.
+
+Make sure that you have SSH keys registered to GitHub. If you do not, generate keys.
+
+Install BasicTeX with HomeBrew, as `brew cask install basictex`. Open up the .pkg and install BasicTeX. Alternatively, install through the .pkg provided online.
+
+Add TeX binaries to your PATH. Go to /Library/TeX/texbin, `pbcopy` the `pwd` and add to your `.bash_profile`. `source` your `.bash_profile`.
+
+Make sure you have correct font libraries for TeX installed. Run `sudo tlmgr update --self` in order to update `tlmgr`, and then run `sudo tlmgr install tex-gyre titlesec`.
+
+Run `GRAVATAR_OPTION=--no-gravatar make` to generate PDF and HTML versions of your resume from Markdown.
+
+It should work now. Please file an issue if you believe the instructions are wrong and you have a solution.
+
 # Resume [![Example](https://img.shields.io/badge/example-pdf-green.svg)](https://github.com/mwhite/resume/raw/master/resume.pdf)
 
 This is a simple Markdown resumé template, LaTeX header, and pre-processing
@@ -9,7 +33,7 @@ The Markdown flavor supported is
 
 ## Dependencies
 
-* Pandoc >= 1.9 
+* Pandoc >= 1.9
 * Python >= 2.7
 * A Tex installation with pdflatex and the Tex Gyre Pagella font, and some
   packages needed by pandoc.  On Ubuntu you can get this by doing:

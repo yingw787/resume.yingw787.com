@@ -1,4 +1,4 @@
-Markdown Resumé
+Ying Wang
 ===============
 
 [Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), [HTML](http://mwhite.github.com/resume), and more
@@ -67,5 +67,3 @@ Skills
 *   Very experienced with Python, Markdown, \LaTeX
 
 *   Familiar with GNU Make, bash
-
-
