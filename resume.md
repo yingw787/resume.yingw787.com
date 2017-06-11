@@ -1,69 +1,56 @@
 Ying Wang
 ===============
 
-[Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), [HTML](http://mwhite.github.com/resume), and more
-<http://github.com/mwhite/resume>
+Email: [yingw787@gmail.com](mailto:yingw787@gmail.com)
+Website: [yingw787.com](https://yingw787.com)
 
-Interests
+
+About
 ---------
 
-*   Creating beautiful resumés from simple Markdown documents
+*   Software Engineer interested in helping people make things.
 
 
 Work Experience
 ---------------
 
-*   **Word Processor** (Redmond, WA)
+*   **Xometry** (Bethesda, MD)
 
-    *Junior Resumé Maker*, 2006 - 2007
+    *Software Engineer*, December 2016 - Present
 
-    -   Intermingled presentation and content
-    -   Styling was a pain, so either didn't do it or found a half-decent
-        template and didn't mess with it
-
-*   **\LaTeX\ + pdflatex**
-
-    *Senior Resumé Maker*, 2008 - 2010
-
-    -   Edited verbose \LaTeX\ documents in a text editor
-    -   Mixed content and presentation to achieve pixel-perfection
-    -   Installed and configured the unusual TeX setups required by the
-        best-looking \LaTeX\ resumés
-
-*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
-
-    *Web Resumé Intern*, August 2010
-
-    -   Entered data, adapting to different data models and formatting
-        limitations
-    -   Attempted to customize PDF exports and remove default resumé elements,
-        to no avail
-
-*   **Markdown with Pandoc**
-
-    *Resumé Architect*, February 2011 - present
-
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
-        DOCX, and more)
-    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
-    -   Use a simple pre-processor to define per-format operations on the
-        Markdown input or its parts, such as moving contact information to the
-        top right of the page in both HTML and PDF output.
-    -   Use a text-based resumé when needed in a pinch
-    -   Use version control, including free hosting on Github
-
+    -   With front-end developers, moving internal ERP front-end to React
+    -   Templated new static landing pages to use Craft CMS
+    -   With rest of development team, retrofitted quoting flow front-end with new styling and functionality
+    -   With rest of development team, updated shipping provider logic to use Shippo's APIs
+    -   Added logic to forward Xometry Partners data to marketing team via Hubspot
+    -   Assisted in production deployments
+    -   Reviewed pull requests from all web systems
+    -   Prototyped mobile push notifications system for Xometry Partners iOS beta application
+    -   Prototyped front-end expedite feature on quoting flow
+    -   Prototyped Xometry Partners onboarding workflow
 
 Education
 ---------
 
-*   **Github University** (World Wide Web)
+*   **Duke University** (Durham, NC)
 
-    *B.S. in Submodules*, May 2012
-
+    *B.S.E in Electrical and Computer Engineering*, August 2012 - May 2016
 
 Skills
 ------
 
-*   Very experienced with Python, Markdown, \LaTeX
+*   **Most to least experienced**
 
-*   Familiar with GNU Make, bash
+    - *Languages* (JavaScript / ES6 / ES7, Python, Java, PHP / Twig, Go, Ruby, C, Lisp, Swift, MIPS, PIC)
+    - *Front-end frameworks* (React.js, Angular 1, jQuery)
+    - *Front-end state management* (MobX, Redux)
+    - *Back-end frameworks* (Flask / Jinja, Node.js / Express.js)
+    - *Databases* (MongoDB, PostgreSQL)
+    - *Build tools* (Webpack, Gulp, GNU Make)
+    - *Testing* (Karma, Enzyme, Mocha, Chai, PyTest, Python.unittest)
+    - *Version Control Software* (Git)
+    - *Templating languages* (Markdown, YAML, \LaTeX)
+    - *Operating Systems* (macOS, Linux/Ubuntu)
+    - *Third-party platforms* (AWS.EC2, AWS.S3, AWS.CloudFront, AWS.Route 53, Hubspot, Shippo, Craft CMS)
+    - *Third-party software* (SolidWorks, OpenCV, ROS)
+    - *Misc.* (bash, SASS / CSS / HTML, Bootstrap / Bulma)
