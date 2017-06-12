@@ -18,11 +18,12 @@ Work Experience
 
     *Software Engineer*, December 2016 - Present
 
-    -   With front-end developers, moving internal ERP front-end to React
+    -   Migrated parts of internal ERP front-end to React
     -   Templated new static landing pages to use Craft CMS
-    -   With rest of development team, retrofitted quoting flow front-end with new styling and functionality
-    -   With rest of development team, updated shipping provider logic to use Shippo's APIs
+    -   Retrofitted parts of quoting flow front-end with new styling and functionality
+    -   Helped update shipping provider logic to use Shippo's APIs
     -   Added logic to forward Xometry Partners data to marketing team via Hubspot
+    -   Refactored some database models to use domain access objects
     -   Assisted in production deployments
     -   Reviewed pull requests from all web systems
     -   Prototyped mobile push notifications system for Xometry Partners iOS beta application
