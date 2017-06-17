@@ -1,0 +1,133 @@
+%
+% LaTeX source of my resume
+% =========================
+%
+% Heavily commented to to fit even LaTeX beginners (hopefully).
+%
+% See the `README.md` file for more info.
+%
+% This file is licensed under the CC-NC-ND Creative Commons license.
+%
+
+
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,a4paper]{article}
+
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+
+% title on top of the document
+\maintitle{Ying Wang}{}{Last update on \today}
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\href{mailto:yingw787@gmail.com}{yingw787\mbox{}@\mbox{}gmail.com}\sbull
+\textsmaller{}248-860-6418
+\\
+\\
+\href{http://www.yingw787.com}{Website}\sbull
+\href{http://www.github.com/yingw787}{GitHub}\sbull
+\href{http://www.linkedin.com/in/yingw787}{LinkedIn}
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Summary}  % a root section title
+
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+\noindent \emph{Software Engineer interested in helping people make things.}
+\\
+\\
+In high school, Ying wanted to learn more about economics and finance. He read through a college economics textbook during his freshman summer, and went on to be MCEE EconChallenge State Champion in 2010 and 2011.
+
+In college, Ying worked as a research assistant in an industrial robotics lab at Oakland University during his freshman summer. There, he found an interest in robotics and manufacturing, and founded a 3D printing student organization on campus the next year. Today, Duke has one of the world's largest and best-equipped collegiate maker spaces, the \href{https://colab.duke.edu/studio}{Innovation Studio}. After graduating and embarking on a multi-country tour of Asia, Ying found a company working with manufacturing and web technologies called Xometry, and works there as a software engineer.
+
+Currently, Ying\apo{s} professional interests reflect his background in economics and finance, robotics and manufacturing, and the Internet.
+\end{multicols}
+
+
+\spacedhrule{0em}{-0.4em}
+
+\roottitle{Experience}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {\href{http://www.xometry.com}{Xometry}}
+  {\textsc{Bethesda, MD}} {%
+  \headedsubsection
+    {Software Engineer}
+    {Dec 2016 -- present}
+    {\bodytext{Xometry quotes and outsources CNC and 3D printing parts for manufacturing companies. Reporting to CTO, Scott Rothrock. Migrated parts of internal ERP front-end to React. Templated current static landing pages to use Craft CMS. Retrofitted parts of quoting flow front-end with new styling and functionality. Helped update shipping provider logic to use Shippo. Added logic to forward Xometry Partners (manufacturing shops Xometry outsources to) data to marketing team via Hubspot. Refactored some database models to use domain access objects. Assisted in production deployments. Reviewed pull requests from all web systems. Prototyped front-end expedite feature on quoting flow, mobile push notifications service for iOS application, and Xometry Partners onboarding workflow.}}
+}
+
+\vspace{-0.2em}
+\begin{center}
+  \emph{\small Please refer to my \href{http://www.linkedin.com/in/yingw787}{LinkedIn profile} for a more complete list of work experiences along with recommendations.}
+\end{center}
+
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Education}
+
+\headedsection
+  {\href{http://duke.edu}{Duke University}}
+  {\textsc{Durham, North Carolina}} {%
+  \headedsubsection
+    {B.S.E, Electrical and Computer Engineering}
+    {2012 -- 2016}
+    {\bodytext{Concentration in Computer Architecture, beginner-level experience with digital systems, integrated circuits, and embedded systems. Picked up some skills in Java, Python, C, and various assembly languages.}}
+}
+
+\headedsection
+  {\href{http://iatoday.org}{International Academy}}
+  {\textsc{Bloomfield Hills, Michigan}} {%
+  \headedsubsection
+    {High school, International Baccalaureate diplomas}
+    {2008 -- 2012}
+    {\bodytext{Focused on economics and finance.}}
+}
+
+
+\spacedhrule{0.5em}{-0.4em}
+
+\roottitle{Skills}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Technical expertise:}
+  {Production experience with Python, PHP, and JavaScript. Front-end production experience with view frameworks like React and Angular 1, state management frameworks with MobX and Redux, testing frameworks with Karma and Enzyme, and build tools with Webpack and Gulp. Good knowledge of bash, git, and various templating languages (Markdown, \LaTeX). Some experience with Ruby, Go, C, Node, and Lisp. Working proficiency with AWS (S3, EC2, CloudFront, Route 53). }
+
+\vspace{0.5em}
+\inlineheadsection
+  {Natural languages:}
+  {English \emph{(mother tongue)}, Mandarin Chinese \emph{(limited working proficiency)}, German \emph{(beginner)}, and French \emph{(beginner)}.}
+
+
+\spacedhrule{1.6em}{-0.4em}
+
+\roottitle{Interests}
+
+\inlineheadsection
+  {Non-exhaustive and in alphabetical order:}
+  {travel, design, cooking, rock climbing, philosophy, history, software engineering (methodologies).}
+
+
+\end{document}
