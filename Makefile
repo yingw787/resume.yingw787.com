@@ -3,6 +3,7 @@ SRC = $(wildcard *.md)
 PDFS=$(SRC:.md=.pdf)
 HTML=$(SRC:.md=.html)
 LATEX_TEMPLATE=./pandoc-templates/default.latex
+GRAVATAR_OPTION=--no-gravatar
 
 all:    clean $(PDFS) $(HTML)
 
